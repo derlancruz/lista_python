@@ -12,5 +12,5 @@ class Retangulo(object):
         return self.base * self.altura
 
     @property
-    def perimeter(self):
+    def perimetro(self):
         return (self.base * 2) + (self.altura * 2)
